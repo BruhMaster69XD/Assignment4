@@ -1,0 +1,152 @@
+body {
+background: cornflowerblue;
+}
+
+@media screen and (max-width: 500px) {
+   body {
+       background-color: skyblue;
+   }
+}
+@media screen and (max-width: 800px) {
+   body {
+       background-color: lightyellow;
+   }
+}
+
+.table-sortable th {
+  cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+p span {
+  color:green;
+  margin: 50px 150px 50px 20px;
+  text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: pink;
+  opacity: 0.6;
+  border-style: solid;
+  border-color: red;
+}
+
+input:focus {
+  background-color: grey;
+}
+
+a:hover {
+  background-color: lightgreen;
+}
+
+a:active {
+  background-color: lightblue;
+}
+a:visited {
+  color: purple;
+}
+
+@media print {
+ano.pbB4{page-break-before: always;}
+}
+
+img.a {
+  vertical-align: baseline;
+}
+   
+img.b {
+float: right;
+}
+   
+div.shorthandBig { font: bold 24pt/14pt Helvetica
+  font-size : 16px;}
+
+.bottom caption {
+  caption-side: bottom;
+}
+
+h1 {
+  color: red;
+  background-color: yellow;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  border-style: dotted;
+  border-color: black;
+  border-width: 10px;
+}
+   
+ul {
+  list-style-image: linear-gradient(to left bottom, red, blue);
+}
+   
+pre {
+  text-indent: 50px;
+  background-image: url("https://static.bimago.pl/mediacache/catalog/product/cache/5/1/117615/image/750x1120/d20c7dc9dc93ddaec7dfe69b765b6ed4/117615_5.jpg");
+  background-repeat: repeat-x;
+} 
+   
+table, td, th {
+  border: 1px solid black;
+  border-spacing: 10px 5px;
+  border-width: 2px;
+}
+
+@media print {
+ano.brAfter {page-break-after: always;}
+}
+
+div.a {
+  font-size : 16px;
+}
+
+ano.b {
+  font-weight: bold;
+}
+
+ano.italic {
+  font-style: italic;
+}
+   
+ol {
+  background: magenta right top;
+}
+
+ano.small {
+  font-variant: small-caps;
+}
+
+ano.font1 {
+  font-family: "Lucida Console", "Courier New", monospace;}
+ano.circle {
+  list-style-type: circle;}
+ano.square {
+  list-style-type: square;}
+ano.upper-roman {
+  list-style-type: upper-roman;}
+ano.lower-alpha {
+  list-style-type: lower-alpha;}
+ano.outside {
+  list-style-position: outside;
+}
+
+ano.inside {
+  list-style-position: inside;
+}
