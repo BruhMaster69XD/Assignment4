@@ -97,6 +97,15 @@ ul {
   list-style-image: linear-gradient(to left bottom, red, blue);
 }
    
+
+ul.b{
+list-style: square;}
+
+@media print {
+  orphans: 5;
+  widows: 5;
+}
+
 pre {
   text-indent: 50px;
   background-image: url("https://static.bimago.pl/mediacache/catalog/product/cache/5/1/117615/image/750x1120/d20c7dc9dc93ddaec7dfe69b765b6ed4/117615_5.jpg");
